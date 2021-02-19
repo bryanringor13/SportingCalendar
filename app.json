@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "The Sporting Calendar",
+    "slug": "sportingcalendar",
+    "scheme": "tsc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "privacy": "unlisted",
+    "icon": "./assets/icon2.png",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thesportingcalendar.app",
+      "buildNumber": "1.0.19",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.462951922076-6pmch7c07emnppdee6grtbki7bkcnmbl"
+        },
+        "googleMapsApiKey": "AIzaSyAPQgMu5sMLz7b8Jzi2_k1QLMFRcO5LySg"
+      },
+      "usesAppleSignIn": true,
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "android": {
+      "package": "com.thesportingcalendar.app",
+      "versionCode": 2,
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyDzyzxWbwdSy062m2zNp2Y-6fT2aLGKBZw",
+          "certificateHash": "6F45747B30C5D98C2263B763882398E4CF933A4FA76D1E7B781E0CA02ED587E9"
+        },
+        "googleMaps": {
+          "apiKey": "AIzaSyDzyzxWbwdSy062m2zNp2Y-6fT2aLGKBZw"
+        }
+      }
+    },
+    "facebookScheme": "fb3871630192898505",
+    "facebookAppId": "3871630192898505",
+    "facebookDisplayName": "The Sporting Calendar"
+  }
+}
